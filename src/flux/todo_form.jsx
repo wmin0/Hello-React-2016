@@ -7,7 +7,7 @@ export default class TodoForm extends React.Component {
     // we need to keep value, or use ref to get value
     this.state = { text: '' };
     this.onChange = this.onChange.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);    
+    this.onSubmit = this.onSubmit.bind(this);
   }
   onChange(event) {
     this.setState({ text: event.target.value });
