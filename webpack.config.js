@@ -3,6 +3,7 @@ let path = require('path');
 module.exports = {
   entry: {
     bundle: './src/index.jsx',
+    bundle2: './src/index2.jsx',
     route_bundle: './src/route/index.jsx',
     flux_bundle: './src/flux/index.jsx',
     redux_bundle: './src/redux/index.jsx'
